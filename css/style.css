@@ -1,0 +1,79 @@
+body{
+    margin: 0 auto;
+    max-width: 1024px;
+}
+.header {
+    min-height: 100px;
+    background-color: #000;
+}
+.header__text {
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+}
+.container1 {
+    background-color: #ff7b00;
+    text-align: center;
+}
+.container1 div{
+    font-size: 60px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    margin
+}
+.myphoto {
+    max-height: 450px;
+    max-width: 450px;
+    border-radius: 50%;
+}
+.container2 {
+    font-size: 30px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 500;
+    background-color: #ffa500;
+    padding: 0 30px 30px 30px;
+}
+.container2 > p:first-child{
+    margin-top: 0;
+    padding-top: 30px;
+}
+.container2 > p:last-child{
+    margin-bottom: 0;
+}
+.container2__code {
+
+}
+.container2__code > p{
+    margin: 0;
+    font-style: italic;
+}
+.container2 span{
+    color: #000fff;
+    font-weight: 600;
+    font-size: 40px;
+}
+.footer {
+    min-height: 150px;
+    background-color: #000;
+    text-align: center;
+}
+.footer__text {
+    list-style: none;
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+    line-height: 75px;
+}
+.footer__text span{
+    color: #7cfc00;
+}
+a{
+    text-decoration: none;
+    color: #8b008b;
+    font-style: italic;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+}
+a:hover{
+    color: #fff;
+}
